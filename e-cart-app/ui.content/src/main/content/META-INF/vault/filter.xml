@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/conf/e-cart-app" mode="merge"/>
+    <filter root="/content/e-cart-app" mode="merge"/>
+    <filter root="/content/dam/e-cart-app/asset.jpg" mode="merge"/>
+    <filter root="/content/experience-fragments/e-cart-app" mode="merge"/>
+</workspaceFilter>

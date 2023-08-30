@@ -1,0 +1,28 @@
+<h1 data-sly-element="${currentStyle.heading}"> ${properties.articletitle} </h1>
+
+<br>
+<p>${properties.articledesc}</p>
+
+</br>
+
+<img src="${properties.articleimagepath}" alt="Girl in a jacket" style="width:450px;height:300px;">
+
+<br/>
+
+<sly data-sly-use.ad="com.adobe.aem.ecart.core.models.ArticleDetails"> </sly>
+${ad.articledesc}
+
+<br/>
+
+${ad.userService.message}
+
+
+<br/>
+
+
+<ul data-sly-list.ra={resource.listChildren}>
+
+    <li>${ra.articlepath} ---- ${ra.articletitle} </li>
+
+</sly>
+
